@@ -17,6 +17,7 @@ io.on('connection', (socket) => {
     socket.broadcast.emit('recieve-color',color);
   })
 });
-http.listen(3000, () => {
-  console.log('listening on *:3000');
+const port=process.env.PORT;
+http.listen(port, () => {
+  console.log('listening on *:',port);
 });
