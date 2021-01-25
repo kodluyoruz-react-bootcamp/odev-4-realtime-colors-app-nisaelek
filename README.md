@@ -1,4 +1,4 @@
-#RealTime ColorPicker App 
+# RealTime ColorPicker App 
 
 Uygulamamı incelemek için aşağıdaki linke tıklayabilirsiniz.
 
